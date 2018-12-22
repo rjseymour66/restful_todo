@@ -1,5 +1,6 @@
 /* eslint-disable class-methods-use-this */
 import db from '../db/db';
+import models from '../todosController/models';
 
 class TodosController {
   getAllTodos(req, res) {
